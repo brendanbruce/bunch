@@ -1,0 +1,166 @@
+!!! html
+%html
+	%head
+		%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+		%script{:src => "/js/jquery-ui.min.js"}
+		%script{:src => "/js/scripts.js"}
+
+		%link{:href => "css/styles.css", :rel => "stylesheet"}
+	%body
+		.wrapper
+			%header.clearfix
+				%a.logo{:href => "#"}
+				
+				.hdr-nav.float-right
+
+
+					.social.float-left
+						%ul.secondary-nav
+							%li
+								%a.twitter.social-icon{:href => "http://twitter.com/wiseguy", :target => "_blank"} Twitter
+							%li
+								%a.twitter.social-icon{:href => "http://twitter.com/wiseguy", :target => "_blank"} Twitter
+							%li
+								%a.twitter.social-icon{:href => "http://twitter.com/wiseguy", :target => "_blank"} Twitter
+							%li
+								%a.twitter.social-icon{:href => "http://twitter.com/wiseguy", :target => "_blank"} Twitter
+
+					.search
+						%form
+							%input{:type => "text"}
+							%input{:button => "button", :value => "Search"}
+
+					%nav.main-nav
+						%ul.nav-list
+							%li.float-right
+								%a{:href => "#"} Home
+							%li.float-right
+								%a{:href => "http://disney.com"} Disney
+
+
+			.intro-area.clearer
+				%h1 Show header
+				%img{:src => "/img/placeholder.jpg"}	
+
+
+			.content
+				.roundup.border-bottom
+					%h2.border-bottom.home-header Roundup
+
+					%ul.roundup-list.clearfix
+						%li.roundup-item.float-left
+							.roundup-img-area
+								.roundup-info
+									%span.month 8
+									%span.day 11
+									%img.slash{:src => "/img/date-div.png"}
+								%img.thumb{:src => "/img/roundup-placeholder.jpg"}
+							%p Lorem ipsum dolor sit amet conseceture adisciping etc...
+
+
+						%li.roundup-item.float-left
+							.roundup-img-area
+								.roundup-info
+									%span.month 8
+									%span.day 11
+									%img.slash{:src => "/img/date-div.png"}
+								%img.thumb{:src => "/img/roundup-placeholder.jpg"}
+							%p Lorem ipsum dolor sit amet conseceture adisciping etc...
+
+						%li.roundup-item.float-left
+							.roundup-img-area
+								.roundup-info
+									%span.month 8
+									%span.day 11
+									%img.slash{:src => "/img/date-div.png"}
+								%img.thumb{:src => "/img/roundup-placeholder.jpg"}
+							%p Lorem ipsum dolor sit amet conseceture adisciping etc...
+
+						%li.roundup-item.float-left
+							.roundup-img-area
+								.roundup-info
+									%span.month 8
+									%span.day 11
+									%img.slash{:src => "/img/date-div.png"}
+								%img.thumb{:src => "/img/roundup-placeholder.jpg"}
+							%p Lorem ipsum dolor sit amet conseceture adisciping etc...
+
+				.the-latest
+					%h2.border-bottom.home-header The Latest
+
+					.latest-article-area
+						.latest-article
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+						.latest-article
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+						.latest-article
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+						.latest-article
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+
+
+				.video
+					%h2.border-bottom-blk.home-header Videos
+					
+					.latest-article-area
+						.latest-video
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+						.latest-video
+							.image-area
+								%img.full-width-img{:src => "/img/roundup-placeholder.jpg"}
+							.tags Makers
+							%h3 Tomahawk
+							%p There&rsquo;s pretty much no cooler reason for doing something than &ldquo;because it&rsquo;s badass.&rdquo; Case in point, Mike Elias and his line of leather-based goods, which he named Tomahawk,...
+
+
+			%footer
+				%ul.footer-primary
+					%li
+						%a{:href => "about.html"} About
+					%li
+						%a{:href => "about.html"} Staff
+					%li
+						%a{:href => "about.html"} Contributors
+					%li
+						%a{:href => "about.html"} Contact
+
+				%ul.footer-secondary
+					%li
+						%a{:href => "about.html"} Terms of Use
+					%li
+						%a{:href => "about.html"} Privacy Policy
+				
+				.email-signup
+					%h3 Email Signup
+					%form
+						%input{:type => "text", :value => "Name"}
+						%input{:type => "text", :value => "Email"}
+						%input{:type => "button", :value => "Submit"}
+
+				.footer-btm.border-top.lt-grey
+					%span.uppercase Copyright 2014 Bunch Magazine

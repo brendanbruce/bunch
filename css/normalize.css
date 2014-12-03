@@ -1,0 +1,35 @@
+/*
+Error: Inconsistent indentation: previous line was indented by 3 spaces, but this line was indented by 1 space.
+        on line 55 of /Users/brendanbruce/Sites/bunchmag/css/normalize.sass
+
+50: 
+51: /* Forms
+52:    ========================================================================== *\/
+53: 
+54: /**
+55:  * Known limitation: by default, Chrome and Safari on OS X allow very limited
+56:  * styling of `select`, unless a `border` property is set.
+57:  *\/
+58: 
+59: @import 'forms/fix-font';
+60: @import 'forms/fix-overflow';
+
+Backtrace:
+/Users/brendanbruce/Sites/bunchmag/css/normalize.sass:55
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:490:in `try_comment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:442:in `block in tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:431:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:431:in `each_with_index'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:431:in `tabulate'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:396:in `_to_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:268:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:404:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: previous line was indented by 3 spaces, but this line was indented by 1 space.\A         on line 55 of /Users/brendanbruce/Sites/bunchmag/css/normalize.sass\A \A 50: \A 51: /* Forms\A 52:    ========================================================================== */\A 53: \A 54: /**\A 55:  * Known limitation: by default, Chrome and Safari on OS X allow very limited\A 56:  * styling of `select`, unless a `border` property is set.\A 57:  */\A 58: \A 59: @import 'forms/fix-font';\A 60: @import 'forms/fix-overflow';"; }

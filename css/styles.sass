@@ -9,6 +9,15 @@ $break-width-small: 420px
 $break-width-medium: 900px
 $break-width-large: 1200px
 
+
+//mixins
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+  
+
 // Styles
 body
 	font-family: $font-stack
@@ -47,7 +56,7 @@ ul
 
 .lt-grey
 	color: #b5b5b5
-	
+
 h2.home-header
 	color: #000
 	font-weight: 700
